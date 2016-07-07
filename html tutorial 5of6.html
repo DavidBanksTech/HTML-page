@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tech Academy Sample Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="login.css">
+	<!--[if lt IE 9]>
+    <script>
+      document.createElement("article");
+      document.createElement("aside");
+      document.createElement("footer");
+      document.createElement("header");
+      document.createElement("main");
+      document.createElement("nav");
+      document.createElement("section");
+	  document.createElement("container");
+	  document.createElement("login");
+    </script>
+    <![endif]-->
+  </head>
+  <body style= background-color:"silver";>
+    <header class="banner">
+      <h1>Oregon Recreational Wildlife Exhibit</h1>
+      <p>Exhibits and Acitivities in Oregon</p>
+	  
+<div id="container">       
+<form>
+<label for="username">Username:</label>
+<input type="text" id="username" name="username">
+<label for="password">Password:</label>
+<input type="password" id="password" name="password">
+<div id="lower">
+<input type="checkbox"><label for="checkbox">Keep me logged in</label>
+<input type="submit" value="Login">
+</div><!--/ lower-->
+</form>
+</div>
+
+/* Basics */
+html, body {   
+ width: 100%;   
+height: 100%;   
+font-family: "Helvetica Neue", Helvetica, sans-serif;   
+color: #444;   
+-webkit-font-smoothing: antialiased;    background: #f0f0f0;
+}
+
+
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="archive.html">Archives</a></li>
+        <li><a href="about.html">About</a></li>
+		<li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Major Destinations</h2>
+        <article>
+          <header>
+            <h3>Portland City Waterfront</h3>
+			<img src="waterfront.jpg" alt="waterfront" height= "400" width= "600">
+            <p style= "font-size: x-small"; >(location, credits)</p>
+          </header>
+          <p>This is the story text. This is the story text.</p>
+          <p>This is the story text. This is the story text.</p>
+        </article>
+
+        <article>
+          <header>
+            <img src="gorge.jpg" alt="gorge" height= "400" width= "600">
+            <p style= "font-size: x-small"; >(location, credits)</p>
+          </header>
+          <p>This is the story text. This is the story text.</p>
+          <p>This is the story text. This is the story text.</p>
+        </article>
+      </section>
+
+      <section>
+        <h2>Videos of Oregon</h2>
+        <article>
+          <header>
+            <h3>The Seven Wonders</h3>
+			<iframe width="600" height="360" src="https://www.youtube.com/embed/g9vrNRAqEkU" frameborder="0" allowfullscreen></iframe>
+            <p style= "font-size: x-small"; >(location, credits)</p>
+          </header>
+          <p>This is the story text. This is the story text.</p>
+          <p>This is the story text. This is the story text.</p>
+        </article>
+
+       </section>
+    </main>
+
+    <aside>
+      <h2>Check Out These Destinations</h2>
+	    <li style= "margin:10"><a href="index.html">Canby</a></li>
+        <li><a href="archive.html">Beaverton</a></li>
+        <li><a href="about.html">Aloha</a></li>
+		<li><a href="contact.html">Gorge</a></li>
+      <p style= "margin-top: 20px;">If You Can Think of Any More Destinations Around Please Contact Us On Our Contact Page.</p>
+    </aside>
+
+    <footer>
+      <p>copyright &copy; David Banks </p>
+	  <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="archive.html">Archives</a></li>
+        <li><a href="about.html">About</a></li>
+		<li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    </footer>
+
+  </body>
+</html>
